@@ -828,7 +828,7 @@ export default function App({onPeds, onTreino, onBusiness}) {
               {onBusiness && <button className="hero-nav-btn" onClick={onBusiness}
                 onMouseEnter={e=>e.currentTarget.style.backgroundImage=`url(${nanamiGif})`}
                 onMouseLeave={e=>e.currentTarget.style.backgroundImage=`url(${nanamiImg})`}
-                style={{backgroundImage:`url(${nanamiImg})`}}>
+                style={{backgroundImage:`url(${nanamiImg})`,backgroundPosition:"center top"}}>
                 <span>BUSINESS</span>
               </button>}
             </div>
